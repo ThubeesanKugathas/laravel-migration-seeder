@@ -1,10 +1,10 @@
 <?php
 
-use App\TravelPackage;
 use Faker\Generator as Faker;
+use App\TravelPackage;
 use Illuminate\Database\Seeder;
 
-class travelpackeges extends Seeder
+class TravelPackagesTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -30,8 +30,6 @@ class travelpackeges extends Seeder
             $travelpackage->birth_date = $faker->date();
 
             $travelpackage->save();
-
-
         }
     }
 }
