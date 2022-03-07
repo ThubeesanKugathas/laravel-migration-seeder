@@ -19,9 +19,9 @@ class TravelPackagesTableSeeder extends Seeder
             $travelpackage->city_destination = $faker->city();
             $travelpackage->country_destination = $faker->country();
             $travelpackage->transport_type = "Tipo X";
-            $travelpackage->trasport_company = "Compagnia X";
+            $travelpackage->transport_company = "Compagnia X";
             $travelpackage->departure_date = "2022-06-12";
-            $travelpackage->arriving_date = "20222-07-03";
+            $travelpackage->arriving_date = "2022-07-03";
             $travelpackage->insurance_policy = $faker->boolean();
             $travelpackage->contract_sign = $faker->boolean();
             $travelpackage->contract_expiring = "2022-12-31";
