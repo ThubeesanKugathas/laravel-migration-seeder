@@ -15,6 +15,16 @@ class CreateTravelpackagesTable extends Migration
     {
         Schema::create('travelpackages', function (Blueprint $table) {
             $table->id();
+            $table->string("address destination");
+            $table->string("city destination");
+            $table->string("country destination");
+            $table->string("transport type");
+            $table->string("transport company");
+            $table->date("departure date");
+            $table->date("arriving date");
+            $table->boolean("insurance policy");
+            $table->boolean("contract sign");
+            $table->date("contract expiring");
             $table->timestamps();
         });
     }
